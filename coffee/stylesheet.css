@@ -30,11 +30,18 @@ body{
   }
 
   /* color footer  geht noch nicht!!!*/
- .nav-item { 
-	 background-color: hotpink;
-	color: hotpink;
-	padding: 14px 16px;
-}
+
+  a.nav-link.active {
+	color:black;
+	}
+ 
+	a.nav-link{
+		color: black;
+	}
+	.bottom-nav{
+		background-color: hotpink;
+	}
+
 
 /* Ws3 How To Create a Transparent Image Text */
 .container {
