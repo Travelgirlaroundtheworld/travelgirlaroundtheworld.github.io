@@ -16,32 +16,53 @@
   <link rel="stylesheet" type="text/css" href="stylesheet.css" />
 <!-- Google fonts -->
   <link href="https://fonts.googleapis.com/css?family=Special+Elite&display=swap" rel="stylesheet">
-
 </head>
 
 <body>
-
-  <header>
-    <!-- w3 navbar -->
-    <div class="topnav">
-      <a class="active" href="#home">de<em><strong>COFFEE</strong></em>licious</a>
-      <div class="topnav-right">
-          <a href="#contact">Contact</a>
-           <a href="#menu">Menu</a>
-           <a href="#about">About</a>
-         </div>
+    <header>
+        <!-- w3 navbar -->
+        <div class="topnav">
+          <a class="active" href="#home">de<em><strong>COFFEE</strong></em>licious</a>
+          <div class="topnav-right">
+              <a href="contact.html">Contact</a>
+               <a href="#menu">Menu</a>
+               <a href="#about">About</a>
+             </div>
+        </div>
+      </header>
+      <br>
+    
+<!-- bootstrap carousel -->
+<div class="container">
+<div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-interval="2000">
+      <img src="image coffee/breakfast-from-above.jpg" class="d-block w-100" alt="...">
     </div>
-  </header>
-  <br>
-<!-- w3 middle image -->
-  <div class="container">
-      <img src="image coffee/journal-and-coffee-at-table.jpg" alt="Notebook" style="width:100%;">
-      <div class="content">
-        <h1>Coffee</h1>
-        <p>is always a good idea</p>
+    <div class="carousel-item" data-interval="2000">
+      <img src="image coffee/coffee-spelled-in-coffee.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item" data-interval="2000">
+      <img src="image coffee/coffee-with-milk.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item" data-interval="2000">
+        <img src="image coffee/journal-and-coffee-at-table.jpg" class="d-block w-100" alt="...">
       </div>
-    </div>
- 
+      <div class="carousel-item" data-interval="2000">
+        <img src="image coffee/coffee-beans-from-above.jpg" class="d-block w-100" alt="...">
+      </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+  
     <br>
 
 <!-- bootstrap nav -->
@@ -51,16 +72,21 @@
         <li class="nav-item">
           <a class="nav-link active" href="#">Impressum</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Address</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Social Media</a>
+        
+        <li class="nav-item"> </li>
+          <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 10h-2v2h2v6h3v-6h1.82l.18-2h-2v-.833c0-.478.096-.667.558-.667h1.442v-2.5h-2.404c-1.798 0-2.596.792-2.596 2.308v1.692z"/></svg>
+           
+            <li class="nav-item"></li>
+            <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm4.615 6h-9.23c-.766 0-1.385.62-1.385 1.384v9.23c0 .766.619 1.386 1.385 1.386h9.23c.766 0 1.385-.62 1.385-1.385v-9.23c0-.765-.619-1.385-1.385-1.385zm-4.615 3.693c1.274 0 2.309 1.032 2.309 2.307s-1.035 2.307-2.309 2.307-2.307-1.033-2.307-2.307 1.033-2.307 2.307-2.307zm4.5 6.346c0 .255-.207.461-.461.461h-8.078c-.254 0-.461-.207-.461-.461v-5.039h.949c-.045.158-.078.32-.102.486-.023.168-.038.339-.038.514 0 2.04 1.652 3.693 3.691 3.693s3.691-1.653 3.691-3.693c0-.174-.015-.346-.039-.514-.023-.166-.058-.328-.102-.486h.95v5.039zm0-6.991c0 .255-.207.462-.461.462h-1.088c-.256 0-.461-.208-.461-.462v-1.087c0-.255.205-.461.461-.461h1.088c.254 0 .461.207.461.461v1.087z"/></svg></a>
         </li>
     
       </ul>
       </div>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
 
