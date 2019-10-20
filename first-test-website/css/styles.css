@@ -1,0 +1,364 @@
+body{
+    font-family: 'Muli', sans-serif;
+}
+
+p{
+    color: rgb(117, 117, 117);
+}
+
+/* Header Bereich */
+.header{
+    height: 620px;
+    background-image: url("../img/header-background-edited.jpg");
+    background-size: cover;
+    background-position: 50% 62%;
+}
+
+.header-navbar-links{
+    color: white;
+    float: right;
+    margin-top: 50px;
+}
+.header-navbar-links a{
+    color: white;
+    text-decoration: none;
+}
+
+.header-navbar-links li{
+    float: left; 
+    list-style-type: none;
+    margin-left: 26px;
+    text-shadow: 0px 0px 2px black;
+}
+
+.header-brand-wrapper{
+    margin-top: 50px;
+    float: left; 
+}
+
+.header-brand{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 150%;
+    margin-top: -8%;
+    display: block;
+    text-shadow: 0px 0px 2px black;
+}
+.slogan{
+    color: white; 
+    text-align: center; 
+    padding-top: 270px;
+    text-shadow: 0px 0px 2px black;
+}
+.slogan-top{
+    font-size: 170%; 
+    font-weight: lighter;
+}
+
+.slogan-bottom{
+    font-size: 300%;
+    font-weight: bold; 
+}
+
+.slogan-button{
+    margin-top:30px;
+    color: white; 
+    text-shadow: 0px 0px 2px black;
+}
+.slogan-button:hover{
+    color: white; 
+    text-shadow: 0px 0px 2px black;
+}
+
+/* Service Bereich */
+.service{
+    padding-top: 100px; 
+    padding-bottom: 75px; 
+}
+.service-gray{
+    background-color: rgb(245, 245, 245);
+}
+
+.service-title{
+    font-weight: lighter;
+    color: rgb(30, 30, 30);
+}
+/* da ich p oben schon habe, brauche ich  nicht alles einzeln machen
+ .service p{ 
+    color: rgb(117, 117, 117);
+}
+*/
+.service-icon{
+    font-size: 1250%;
+    color: rgb(224,224, 224);
+    text-align: center;
+    margin-top: -10%;
+    margin-bottom: -20%;
+}
+/* Features Bereich */
+.features{
+    padding-top: 100px;
+    padding-bottom: 85px; 
+}
+.feature-icon{
+    width: 70px;
+    height: 60px; 
+    padding-top: 10px;
+    background-color: rgb(30, 30, 30);
+    border-radius: 35px;
+    color: white; 
+    text-align: center;
+    font-size: 30px;
+    float: left;
+}
+.feature-text{
+margin-left: 90px;
+}
+    
+
+.feature-text h5{
+    margin-bottom: 8px;
+    font-size: 150%;
+    color: rgb(30, 30, 30);
+}
+/* clients */
+
+.clients{
+    padding-top: 100px; 
+    padding-bottom: 100px;
+    background-color: rgb(245, 245, 245);
+    
+}
+
+.clients-heading{
+    font-weight:lighter;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.clients-subheading{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.client-image{
+    max-width: 100%;
+    border-radius: 100000px;
+    border: 5px solid white;
+}
+.client-quote{
+    border: 2px solid rgb(235,235,235);
+    background-color: white;
+    padding-left: 75px;
+    padding-top: 35px;
+    padding-bottom: 45px;
+    padding-right: 75px;
+    font-size: 150%;
+    font-weight: lighter;
+    font-style: italic;
+    position: relative;
+}
+.client-quote p{
+    margin-bottom: 5px;
+}
+.client-quote-author{
+    font-style: normal;
+    font-size: 70%;
+    color: rgb(119, 147, 197);
+}
+.client-quote::before,
+.client-quote::after{
+/* da es ein inline element ist, kommt block und content element dazu */
+content: "";
+display: block; 
+width: 0px;
+height:0px; 
+position: absolute;
+top: 50%;
+ }
+
+.client-quote::before{
+    left: -30px;
+    margin-top: -15px;
+    border: 15px solid transparent;
+    border-right: 15px solid rgb(235,235,235)
+
+}
+.client-quote::after{
+    left: -26px;
+    margin-top: -13px;
+    border: 13px solid transparent;
+    border-right: 13px solid white;
+    /* border-top: 13px solid transparent; 
+    border-left: 13px solid transparent;
+    border-bottom: 13px solid transparent;*/
+}
+ .second-quote{
+     padding-top: 80px;
+ }
+.arrow-right::before{
+    right: -30px;
+    /* da div beide klassen hat&wir "left" nicht brauchen, muss es ausgestellt werden */
+    left: auto;
+    margin-top: -15px;
+    border: 15px solid transparent;
+    border-left: 15px solid rgb(235,235,235)
+
+}
+
+.arrow-right::after{
+    right: -26px;
+    left: auto;
+    margin-top: -13px;
+    border: 13px solid transparent;
+    border-left: 13px solid white;
+}
+
+/* team */
+
+.team{
+    background-color: black;
+    padding-top: 80px;   
+    padding-bottom: 100px; 
+    color: white;    
+
+}
+.team-heading{
+    font-weight:lighter;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.team-subheading{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.team-image{
+    max-width: 70%;
+    border-radius: 100000px;
+    border: 5px solid white;
+}
+
+.team-image-container{
+    text-align: center;
+}
+.team-name{
+    font-weight: bold; 
+    text-align:center;
+    margin-top:10px;
+    margin-bottom: 0px;
+}
+.team-jobs{
+    text-align:center;
+    color:white; 
+    margin-bottom: 7px;
+}
+.team-icons{
+    text-align: center;
+}
+/* UR-link ist inline element und kann man kein width und height bearbeiten, deshalb display block */
+.team-icon{
+    color: white;
+    border: 3px solid white;
+    width: 25px;
+    height: 25px;
+    border-radius: 10000000px;
+    display: inline-block;
+    text-align: center;
+    /* float: left;  darf nicht verwendet werden, da es mein text align blockiert, change into inline-block */
+}
+
+/* damit ich margin im kreis habe, fa kommt aus dem link fürs icon */
+.team-icon .fa{
+    margin-top: 5px;
+}
+/* a- inline element, wird immer untereinander angezeigt, kein zeilenumbruch automatisch */
+
+.team-slogan{
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* contacts */
+
+.contacts{
+   
+    background-color: #768fc5;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.contact-heading{
+    color:white;
+    font-weight:lighter;
+    margin-bottom: 15px;
+}
+
+.contact-subheading{
+    color:white;
+    color: white;
+    margin-bottom: 30px;
+    font-weight: lighter;
+}
+
+.contact-form{
+    margin-bottom: 0px;
+}
+
+.contact-detail{
+    list-style-type: none;
+}
+
+.contact-detail li{
+    color:white;
+    width: 50%;
+    float: left;
+    font-weight: lighter;
+    height:2.5em;
+}
+.contact-detail .fa{
+    color:white;
+    font-size: 100%;
+
+}
+
+.contact-icon{
+    color:white;
+    display: inline-block;
+    width: 40px;
+    text-align: center;
+}
+
+.contact-input {
+    width: 100%;
+    margin-bottom: 28px;
+}
+.contact-message {
+    height:140px;
+}
+/* da die background color von oben mehr "Macht" hat, muss das hier anders (spezifischer) definiert werden */
+input.contact-submit[type="submit"] {
+background-color: white;
+margin-bottom: 0px;
+}
+
+/* footer */
+
+.footer {
+    background-color: #768fc5;
+    text-align: center;
+    font-weight: lighter;
+}
+.footer p{
+    color: white;
+}
+
+.footer a{
+    color: white;
+   text-decoration: underline;
+}
+.footer-hr {
+    margin:0px;
+    margin-bottom: 25px;
+}
